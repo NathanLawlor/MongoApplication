@@ -1,0 +1,9 @@
+com\app\utils\Database.class
+com\app\models\Car.class
+com\app\utils\DatabaseCollectionHandler.class
+com\app\config\SpringConfig.class
+com\app\controller\WelcomeController.class
+com\app\models\ContentBox.class
+com\app\models\Person.class
+com\app\controller\CollectionViewController.class
+com\app\WebInitialiser.class

@@ -1,0 +1,117 @@
+.collection-bar {
+	display: flex;
+	width: 100%;
+	position: relative;
+	border-bottom: 3px solid #000000;
+	background-color: #54a0ff;
+}
+
+.collection-bar > div {
+	padding: 5px;
+	width: fit-content;
+}
+
+#addDocDiv {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+#addDocRef {
+	display: inline-block;
+	margin: 10px;
+	padding: 5px;
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: whitesmoke;
+}
+
+#addDocRef:hover {
+	background-color: #f6e58d; 
+}
+
+.collection-select {
+	height: 55px;
+}
+
+select {
+	margin: 10px;
+	width: 150px;
+	height: 35px;
+	border: 1px solid #000000;
+}
+
+select:hover {
+	outline: 0.5px solid black;
+}
+
+.collectionInfo {
+	margin: 5px;
+	font-size: 40px;
+}
+
+#document-container {
+	padding: 20px;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 3px solid #000000;
+	background-color: #535c68;
+}
+
+.document {
+	display: flex;
+	margin: 25px;
+	width: 20%;
+	justify-content: center;
+}
+
+.document-info {
+	margin: 5px;
+	padding: 5px;
+	width: 60%;
+	height: 76px;
+	text-align: center;
+	border: 5px outset #487eb0;
+	background-color: #74b9ff;
+}
+
+.document-info:hover {
+	background-color: #0abde3;
+}
+
+.document-info > p {
+	font-size: 20px;
+}
+
+.icon-container {
+	display: flex;
+	margin: 5px;
+	width: 20%;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon {
+	padding: 5px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+#select-icon {
+	margin: 2px;
+	width: 50px;
+	height: 50px;
+	transform: scale(1.05);
+}
+
+#select-icon > a > img:hover {
+	transform: translateX(3px);
+}
+
